@@ -1,0 +1,1 @@
+"""Admin reporting module placeholder."""

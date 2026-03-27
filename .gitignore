@@ -5,3 +5,17 @@
 # Visual companion outputs
 .superpowers/
 .worktrees/
+
+# Package manager and build artifacts
+node_modules/
+.next/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python artifacts
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/

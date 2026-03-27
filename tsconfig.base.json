@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2022",
+    "useUnknownInCatchVariables": true,
+    "paths": {
+      "@proposalflow/shared-types": ["packages/shared-types/src/index.ts"],
+      "@proposalflow/shared-config": ["packages/shared-config/src/index.ts"],
+      "@proposalflow/shared-schemas": ["packages/shared-schemas/src/index.ts"]
+    }
+  }
+}
